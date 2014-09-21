@@ -28,4 +28,4 @@
 
 		</tbody>
 </table>
-	<p align="center"><?php echo $this->pagination->create_links();?></p>
+	<div class="pagination"><p align="center" <?php echo $this->pagination->create_links();?></p></div>

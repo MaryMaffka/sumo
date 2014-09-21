@@ -1,0 +1,19 @@
+<?php
+
+$m$db = mysql_connect("localhost","root","iloveyou");
+
+mysql_set_charset("utf8");
+mysql_select_db("sportbasa",$db);ail = $_POST['user'];
+$rezult = mysql_query("SELECT login FROM user WHERE login='$mail'"); 
+
+?if ($rezult > 0)
+{
+    //user name is not availble
+    echo "no";
+} 
+else
+{
+    //user name is available
+    echo "yes";
+}
+?>

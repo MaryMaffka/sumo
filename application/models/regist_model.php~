@@ -1,0 +1,17 @@
+<?php
+
+class Regist_model extends CI_Model{
+
+
+
+   function insertData($table,$data=array()) {
+   	
+   	return $this->db->insert($table,$data)->result();   	
+   	
+   }
+
+
+}
+
+
+?> 

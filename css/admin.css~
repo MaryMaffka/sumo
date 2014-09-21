@@ -1,0 +1,109 @@
+.wrapper {
+width: 900px;
+
+margin: 115px auto 0 auto;
+padding-bottom: 60px;
+text-align: left;
+position: relative;
+background-color: #FFF4D5;
+}
+
+.admin_messg{
+	height: 246px;
+   width:  340px;
+   background-color: #E9CFB4;
+   border-radius:10px;
+   border:2px solid #b0b0b0;
+   margin: 130px auto auto 280px;
+}
+.admin_messg p{
+	font-size: 25px;
+	font-weight:bolder;
+	text-align: center;
+	margin-top: 60px;
+	
+}
+
+/*Информационная страница*/
+#page{
+  background-color:#fff ;
+  outline: 2px solid #5e6c87;
+  margin: -1px auto;/*20*/
+  position: absolute;
+  z-index: 1000;
+  top: 10000px;
+  left:-70px;
+  display:none;
+}
+
+.collapse{
+	position:static;
+}
+
+.main tr{
+
+	height: 50px;
+
+}
+
+td img{
+ float: right;
+ display: block;
+}
+
+#edit{
+opacity: 0.3;
+
+}
+
+#pers_data{
+	/*width: 500px;
+	height: 300px;
+   margin:35px 20px 30px 220px;
+   border:4px inset #626264;   
+   background-color: white;*/
+}
+#pers_data td{
+	padding-left: 10px;
+	padding-top: 20px;
+}
+
+#pers_data img{
+    border-radius:5px;
+   /* margin-top: -30px;*/
+
+}
+
+#pers_data span{
+	font-size:20px;
+	font-family: sans-serif;
+	margin-left: -5px;
+}
+
+#tab{
+
+	top: 2em;
+}
+#tab td{
+	padding: 2px;
+	
+}
+#tab th{
+	padding: 1px;
+}
+
+#close{
+	float: right;
+	opacity:0.3;
+}
+
+#pen{
+	float: right;
+	opacity:0.3;
+
+}
+#print{
+	float: right;
+	opacity:0.3;
+
+}

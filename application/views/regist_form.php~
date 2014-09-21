@@ -1,0 +1,14 @@
+<?php
+include("block/begin.php");
+/*
+session_start(); 
+            
+if (isset($_SESSION['login']))
+ {         
+   exit ("<html><head><meta http-equiv='Refresh' content='0; URL=pers_page.php'></head></html>");                          
+ }*/
+ //else{
+     include("form2.php");  
+   //  }
+ include("block/end.php");
+ ?>

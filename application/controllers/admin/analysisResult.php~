@@ -1,0 +1,11 @@
+<?php
+include_once('preparation.php');
+
+class analysis_result extends Preparation{
+	protected $base;	
+	
+	function index($type){
+		$this->base =$this->getBase($type); 
+	}	
+}
+?>

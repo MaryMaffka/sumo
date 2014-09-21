@@ -1,0 +1,352 @@
+/*Основное*/
+* {
+margin: 0;
+padding: 0;
+}
+
+html {
+height: 100%;
+font-size: 62.5%;
+}
+
+body {
+height: 100%;
+text-align: center;
+font: 1.2em Verdana, Arial, Helvetica, sans-serif;
+background:url('../img/bground.png') repeat 0 0;
+min-width: 900px;
+}
+
+a:link, a:visited {
+color: #A42A00;
+text-decoration: underline;
+font-weight: bold;
+}
+
+a:hover {
+text-decoration: none;
+}
+
+.cleaner {
+clear: both;
+height: 0;
+font-size: 0;
+visibility: hidden;
+}
+
+.cleaning-box { 
+min-height: 1px;
+}
+
+.cleaning-box:after {
+display: block; 
+clear: both; 
+visibility: hidden; 
+height: 0; 
+font-size: 0; 
+content: ' ';
+}
+
+.noscreen {
+display: none;
+}
+
+.hidden { /* Skip menu */
+position: absolute;
+top: -10000px;
+left: 0;
+width: 1px;
+height: 1px;
+overflow: hidden;
+}
+
+
+/* Wrapper */
+
+.wrapper {
+width: 900px;
+border-width:3px;
+border-color: #B0B0B0; 
+border-style: solid;
+margin: 115px auto 0 auto;
+padding-bottom: 60px;
+text-align: left;
+position: relative;
+background-color: #FFF4D5;
+}
+
+
+/* Paragraphs, headings, ... */
+
+p {
+color: #A42A00;
+line-height: 1.7;
+}
+
+h1, h1 a:link, h1 a:visited, h2, h3 {
+font-family: Georgia, "Times New Roman", Times, serif;
+font-weight: normal;
+letter-spacing: 1px;
+}
+
+h2, h3 {
+color: #A42A00;
+}
+
+h1 {
+font-size: 2.6em;
+color: #EBD391;
+margin-bottom: 10px;
+}
+
+h1 a:link, h1 a:visited {
+color: #EBD391;
+text-decoration: none;
+}
+
+h2 {
+font-size: 1.8em;
+margin-bottom: 8px;
+}
+
+h3 {
+font-size: 1.5em;
+}
+
+
+
+/* Menu */
+
+.menu {
+list-style: none;
+width: 902px;
+margin: 5px auto 0 -16px;
+padding-left:30px;
+border-radius:5px;
+background: #682E00 url('../img/menu.png') repeat-x 0 0;
+}
+
+.menu li {
+float: left;
+display: inline;
+line-height: 55px;
+margin-right: 55px;
+padding-right: 2.1em;
+
+white-space: nowrap;
+}
+
+.menu li a, .menu li a:visited {
+float: left;
+display: inline;
+text-decoration: none;
+font-size: 15px;
+color: #EBD391;
+font-weight: normal;
+padding: 0 7px;
+}
+
+.menu li a:hover {
+color: #FFF4D3;
+}
+
+.menu li a.active {
+
+text-decoration: none;
+}
+
+.menu li.last {
+background: none;
+}
+
+
+/* Content */
+
+.content {
+width: 900px;
+margin: 0 auto;
+background-color: #FFF4D5;
+}
+
+.column-left {
+float: left;
+width: 63%;
+}
+
+.column-left-in {
+margin: 1.7em 1em 3em 1.8em;
+}
+
+p.text-content:first-letter {
+font-size: 1.4em;
+font-weight: bold;
+line-height: 0.9;
+}
+
+.column-left h3 {
+margin: 17px 0 12px 0;
+}
+
+.column-right {
+float: right;
+width: 36%;
+}
+
+.column-right-in {
+margin: 1.7em 1em 3em 1em;
+}
+
+#board-top {
+width: 295px;
+height: 25px;
+}
+
+#board {
+background-color: #515153;
+width: 295px;
+}
+
+.board-in {
+margin: 0 1.8em;
+padding: 0.7em 0;
+}
+
+#board-bottom {
+width: 295px;
+height: 21px;
+}
+
+#board h3 {
+font-size: 1.35em;
+color: #FFF9E7;
+}
+
+#board dl {
+color: #FFF9E7;
+margin-top: 13px;
+}
+
+#board dt {
+font-size: 0.95em;
+font-weight: bold;
+margin-bottom: 2px;
+}
+
+#board dd {
+margin-bottom: 17px;
+}
+
+#board dd a, #board dd a:visited  {
+color: #FFF9E7;
+font-weight: normal;
+text-decoration: none;
+line-height: 1.3;
+margin-bottom: 17px;
+}
+
+#board dd a:hover {
+text-decoration: underline;
+}
+
+.divider {
+width: 295px;
+height: 13px;
+margin: -5px 0 16px 0;
+}
+
+.paper {
+width: 295px;
+height: 210px;
+margin-top: 4px;
+padding-bottom: 9px;
+}
+
+.paper-in {
+margin: 0 2.5em;
+padding-top: 1.7em;
+}
+
+#board address {
+font-style: normal;
+font-weight: bold;
+color: #803900;
+line-height: 1.45;
+background-color: #FFFFFF;
+}
+
+
+/* Lists */
+
+ul.we-do {
+list-style: none;
+margin-bottom: 30px;
+}
+
+ul.we-do li {
+background: url('../img/bullet.gif') no-repeat 0 1px;
+padding: 0 0 1px 27px;
+margin-bottom: 10px;
+color: #A42A00;
+line-height: 1.3;
+}
+
+/*
+#inputB{
+width: 200px;
+height:94px;
+outline: 2px solid #000000;
+position: absolute;
+
+}
+*/
+
+
+/*Menu*/
+#nav_menu{
+	width: 200px;
+	height: 110px;
+	margin: 30px auto;
+}
+ul#menu {list-style-type:none; margin:0; padding:0;}
+
+ul#menu li a{
+	color:#909090;
+	background: url(img/vert_menu.png) no-repeat 0 0;
+	text-decoration:none; 
+	width: 200px;
+	height: 55px;
+	display:block;
+	border:none;
+	text-shadow: #ddd 2px 2px 0;
+}
+
+ul#menu li a:hover{
+	background-position: 50% 100%;
+	width: 200px;
+	height: 55px;
+	display:block;
+	color:#fff;
+	text-shadow: #000 2px 2px 0;
+}
+
+ul#menu li a span{
+	font-family:sans-serif;
+	font-size:18px;
+	padding:17px 0 0 20px;
+	display:block;	
+}
+
+#messg{
+	background-color:#E9CFB4;
+   border:2px solid #b0b0b0;
+   margin-top: 200px;
+}
+
+#sMenu{
+	padding-left: 150px;
+}
+
+.btn.list{
+	background-color:white;
+	color: black;
+}

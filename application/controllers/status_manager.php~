@@ -1,0 +1,39 @@
+ <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
+ 
+abstract class Status_manager{
+
+	function getObj($status) {
+		switch($status) {
+			case "ATHLETE":
+				return new Athlete();
+			case "OTHER":
+				return new Other();	
+			
+		}
+   }
+   
+   abstract getDataArr($login);
+   
+}
+
+class Athlete extends StatusManager{
+
+	function getDataArr($login)
+	{
+		$data = array('Login' => $login);
+		return $this->get_where('athlete',$data)->row_array();		
+	
+	}
+
+} 
+ 
+class Other extends StatusManager{
+
+	function getDataArr($login)
+	{
+		$data = array('Login' => $login);
+		return $this->get_where('maintab',$data)->row_array();	
+	}
+
+}
+ ?>

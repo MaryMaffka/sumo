@@ -1,0 +1,14 @@
+<?php
+$config = array(
+			'regist' => array(
+			              array(
+                           'field' => 'mail',
+                           'label' => 'Логин:',
+                           'rules' => 'required|min_length[4]'
+                            ),
+			
+			                 )
+               ); 
+
+
+?>

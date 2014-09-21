@@ -1,0 +1,66 @@
+   <style type="text/css">
+   	table th{
+			 padding: 10px;
+   	}
+   </style>
+   
+    <table align="center"> 
+        		<tr>
+					<th>
+				<div class="btn-group">
+  					<a class="btn dropdown-toggle" data-toggle="dropdown" href="#">Кнопка<span class="caret"></span></a>
+  						<ul class="dropdown-menu">
+    						<!-- dropdown menu links -->
+  						</ul>
+				</div>				
+					</th> 
+					 <th>
+				<div class="btn-group">
+  					<a class="btn dropdown-toggle" data-toggle="dropdown" href="#">Кнопка<span class="caret"></span></a>
+  						<ul class="dropdown-menu">
+    						<!-- dropdown menu links -->
+  						</ul>
+				</div>					
+					</th> 
+			    	 <th>
+				<div class="btn-group">
+  					<a class="btn dropdown-toggle" data-toggle="dropdown" href="#">Кнопка<span class="caret"></span></a>
+  						<ul class="dropdown-menu">
+    						<!-- dropdown menu links -->
+  						</ul>
+				</div>					
+					</th> 
+				 <th>
+				<div class="btn-group">
+  					<a class="btn dropdown-toggle" data-toggle="dropdown" href="#">Кнопка<span class="caret"></span></a>
+  						<ul class="dropdown-menu">
+    						<!-- dropdown menu links -->
+  						</ul>
+				</div>					
+					</th> 
+					 <th>
+				<div class="btn-group">
+  					<a class="btn dropdown-toggle" data-toggle="dropdown" href="#">Кнопка<span class="caret"></span></a>
+  						<ul class="dropdown-menu">
+    						<!-- dropdown menu links -->
+  						</ul>
+				</div>					
+					</th>  	
+					 <th>
+				<div class="btn-group">
+  					<a class="btn dropdown-toggle" data-toggle="dropdown" href="#">Кнопка<span class="caret"></span></a>
+  						<ul class="dropdown-menu">
+    						<!-- dropdown menu links -->
+  					</ul>
+				</div>					
+					</th>  
+					 <th>
+						<div class="btn-group">
+  							<a class="btn dropdown-toggle" data-toggle="dropdown" href="#">Кнопка<span class="caret"></span></a>
+  								<ul class="dropdown-menu">
+    							<!-- dropdown menu links -->
+  								</ul>
+						</div>					
+					</th>  	 		   		
+        		</tr>
+        </table> 

@@ -1,0 +1,125 @@
+/*Основное*/
+input{
+margin:7px auto;
+}
+
+select#year{
+width: 65px;
+font-size: 13px; 
+}
+select.date{
+width: 50px;
+font-size: 13px; 
+}
+select.country{
+width: 165px;
+font-size: 13px; 
+}
+.well{
+background-color:#E9CFB4;
+border:2px solid #b0b0b0;
+margin-top: 200px;
+}
+
+.btn{
+background:#4E4E4E;
+color:#EBD391;
+}
+
+ 
+/*Форма редактирования*/
+.well.edit{
+	margin-left: 150px;
+   margin-top: 50px;	
+}
+
+.well.test{
+	margin-left: 150px;
+   margin-top: 50px;	
+}
+.btn.editBtn{margin-top: 20px;}
+
+/***********************/
+
+/*Проверка формы*/
+.error{
+  font-size:9px;
+  color:red;
+}
+
+/*	=	File Load */
+/* Стили для контейнера */
+.file-load-block {
+	width: 310px;
+	height: 35px;
+	overflow: hidden;/*отображает область только внутри элемента*/
+	position: relative;
+}
+/* работаем с инпутом который конкретно file */
+.file-load-block input[type=file] {
+	/* делаем кроссбраузерную прозрачность */
+	opacity: 0;
+	filter: alpha(opacity=0);
+ 
+	/* Позиционируем абсолютно отсносительно контейнера по правому краю */
+	position: absolute;
+	top: 0;
+	right: 0;
+ 
+	/*
+	Задаем высоту и делаем шрифт огромным
+	для того чтобы кнопка "обзор" занимала все пространство контейнера
+	*/
+	height: 35px;
+	font-size: 600px;
+ 
+	/* Ставим наш инпут поверх всего содержимого */
+	z-index: 2;
+	cursor: pointer;
+	width: auto;
+}
+/* Стилизируем инпут и кнопку которые под загрузчиком */
+.file-load-block input[type=text] {
+	z-index: 1;
+	width: 190px;
+	padding-right: 10px;
+	white-space:nowrap;
+	text-overflow: ellipsis;
+	-o-text-overflow: ellipsis;
+}
+
+.btn.selFile{
+
+margin-top: 5px;
+margin-left:5px;
+
+}
+#btnfile{
+	background-color: #c0c0c0;	
+}
+
+/*Авторизация*/
+#auth1{
+	margin-top: 140px;
+	margin-left: 300px;
+}
+/*Регистрация*/
+select.athlete{
+	width: 100px;
+   font-size: 13px; 
+}
+
+/*Форма входа в админ.блок*/
+
+#admin_login_form{
+	width: 200px;
+	border-radius: 10px;
+	margin: 160px auto 0 auto;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	text-align: left;
+	color:white;
+	position: relative;
+	background-color:#4F5D78 ;
+	padding-left: 40px;
+}

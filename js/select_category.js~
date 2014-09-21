@@ -1,0 +1,7 @@
+$(document).ready(function () {
+	$('#selectCategory').hide();
+	$('#legal-menu a').mousedown(function () {
+		$('#selectCategory').show();
+		
+	});
+});

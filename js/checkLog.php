@@ -1,0 +1,16 @@
+<?php
+$db = mysql_connect("localhost","root","iloveyou");
+
+mysql_set_charset("utf8");
+mysql_select_db("sportbasa",$db);
+
+$user = $_POST['user'];
+
+$rez = mysql_query("SELECT * FROM user WHERE login='$user'");
+$row = mysql_fetch_array($rez);
+
+if($row['id']>0)
+{
+  echo 'yes';
+}else echo 'no';
+?>
