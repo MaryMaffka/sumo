@@ -7,6 +7,7 @@ class auth extends Form_controller{
 
 	function __construct() {
 		parent::__construct();
+		echo "I love you";
 		$this->load->model('base_model');
 	}
 	
@@ -17,6 +18,7 @@ class auth extends Form_controller{
 
 	function processData() 
 	{
+
 			$authData = array('Login' => $_POST['login'],'Password' => $_POST['pswd']);
 			$ok = $this->base_model->get_one('user',$authData);
         
