@@ -7,6 +7,7 @@ class auth extends Form_controller{
 
 	function __construct() {
 		parent::__construct();
+		echo "hallo";
 		$this->load->model('base_model');
 	}
 	
