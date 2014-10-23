@@ -5,8 +5,8 @@ include_once 'participants.php';
 class Regist extends Form_controller{
 
 	function __construct() {
-    var_dump($_POST);
 		parent:: __construct();
+    // i love you more!
 	   $this->load->model('base_model');
 	}
 
