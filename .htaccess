@@ -1,5 +1,5 @@
 <IfModule mod_rewrite.c>
-	AddDefaultCharset utf8
+	AddDefaultCharset utf87
 	php_value display_errors 1
 	php_value display_startup_errors 1
 	php_value error_reporting E_ALL
