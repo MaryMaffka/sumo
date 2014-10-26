@@ -1,1 +1,6 @@
- 
+<<<<<<< HEAD
+/.htaccess 
+=======
+/.htaccess
+/config.php
+>>>>>>> 02103e5675f70f7d718b450956e3d3303360522a

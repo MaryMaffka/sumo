@@ -7,7 +7,7 @@ class Auth extends Base_control{
 	   parent::__construct();
 		$this->load->library('ion_auth'); 
 	}
-
+//hello11111
 	function index() 
 	{
 		if(!$this->ion_auth->logged_in())
