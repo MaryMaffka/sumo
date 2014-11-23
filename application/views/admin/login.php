@@ -8,6 +8,7 @@
       <input type="text" name="username" required  value=""> *<br>
       Password:<br>
       <input type="password" name="password" required  value=""> *
+      <input type="password" name="password" required  value=""> *
       <br>
       <input type="submit" name="submit">
    </div>          
